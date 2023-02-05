@@ -3,8 +3,8 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import "./style.css";
 import socketIOClient from "socket.io-client";
-const URL = "http://localhost:5000/ticket";
-const endpoint = "http://localhost:5000";
+const URL = "https://counterbackl.onrender.com/ticket";
+const endpoint = "https://counterbackl.onrender.com";
 const socket = socketIOClient(endpoint);
 const CustomerView = () => {
   const [ticketNumber, setTicketNumber] = useState(null);
