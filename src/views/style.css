@@ -1,0 +1,85 @@
+.customer_view {
+  width: 80%;
+  border: 1px solid black;
+  padding: auto;
+  margin: auto;
+  margin-top: 30px;
+}
+.customer_head {
+  padding: 10px;
+}
+.upper_customer_view {
+  width: 50%;
+  border: 1px solid black;
+  padding: auto;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+}
+.addticket_btn {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+.addticket_btn:hover {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.card {
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+  padding: 20px;
+}
+
+/* counter view */
+
+.counter_view {
+  width: 80%;
+  border: 1px solid black;
+  padding: auto;
+  margin: auto;
+  margin-top: 30px;
+}
+.counter_head {
+  padding: 10px;
+}
+.countercards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  justify-items: center;
+}
+.countercard {
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+  padding: 20px;
+}
+.counter_btns {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+}
+.counter_btns button {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.counter_btns button:hover {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
