@@ -3,7 +3,7 @@ import axios from "axios";
 import "./style.css";
 import socketIOClient from "socket.io-client";
 const URL = "https://counterbackl.onrender.com/ticket";
-const endpoint = "https://counterbackl.onrender.com";
+const endpoint = "https://counterbackl.onrender.com:8080";
 const socket = socketIOClient(endpoint);
 const CounterManager = () => {
   const [counterStatus, setCounterStatus] = useState("Online");
